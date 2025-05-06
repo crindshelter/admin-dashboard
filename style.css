@@ -64,6 +64,7 @@ body {
 .header {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
+    padding: 25px;
 }
 
 .search-head input {
@@ -74,8 +75,15 @@ body {
     width: 80%;
 }
 
+.search-head {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
 .notif-head {
     display: flex;
+    justify-content: center;
 }
 
 .notif-head img {

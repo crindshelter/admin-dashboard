@@ -21,6 +21,10 @@ body {
     flex-direction: column;
     gap: 10px;
 
+    box-shadow: 5px -1px 5px 0px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 5px -1px 5px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: 5px -1px 5px 0px rgba(0,0,0,0.24);
+    z-index: 2;
 }
 
 .side {
@@ -138,7 +142,7 @@ body {
 
 .projects {
     display: grid;
-    grid-template: 50px 1fr 1fr  1fr/ 1fr 1fr; 
+    grid-template: 30px 1fr 1fr  1fr/ 1fr 1fr; 
     gap: 15px;
     grid-row: span 2;
 }
@@ -155,6 +159,24 @@ body {
     gap: 10px;
     border-left: rgb(32, 58, 125) 15px solid;
     
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.44);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.44);
+}
+
+.announcements {
+    padding: 0 25px;
+}
+
+.announcements-box {
+    background-color: white;
+    padding: 25px;
+    margin-top: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.44);
     -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.44);
     -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.44);

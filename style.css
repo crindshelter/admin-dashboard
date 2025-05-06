@@ -65,6 +65,17 @@ body {
     grid-area: 1fr 1fr / 1fr 1fr;
 }
 
+.search-head {
+    display: flex;
+}
+
+.search-head input {
+    border-radius: 25px;
+    border: 2px black solid;
+    background-color: #f5fcff;
+    padding: 5px 10px;
+}
+
 
 
 /* Other */

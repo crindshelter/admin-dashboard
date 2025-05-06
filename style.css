@@ -7,7 +7,7 @@
 body {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 5fr;
     height: 100vh;
 }
 
@@ -95,6 +95,19 @@ body {
     padding: 2px;
     border-radius: 50%;
     background-color: rgb(178, 216, 255);
+}
+
+.welcome-head {
+    display: flex;
+    gap: 30px;
+}
+
+.welcome-head .profile {
+    height: 100px; 
+}
+
+.welcome-head small {
+    font-size: 0.7em;
 }
 
 

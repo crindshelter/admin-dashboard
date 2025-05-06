@@ -131,10 +131,30 @@ body {
 
 .main {
     background-color: #e6f8fd;
+    display: grid;
+    grid-template: 3fr 1fr / 1fr 1fr;
+    padding: 25px;
+}
+
+.projects {
+    display: grid;
+    grid-template: 50px 1fr 1fr  1fr/ 1fr 1fr; 
+    gap: 15px;
+    grid-row: span 2;
+}
+
+.project {
+    height: 210px;
+    width: 450px;
+    background-color: rgb(220, 220, 220);
 }
 
 
 /* Other */
+
+.title-main {
+    grid-column: span 2;
+}
 
 .margin-top {
     margin-top: 10%;

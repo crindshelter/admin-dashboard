@@ -69,6 +69,7 @@ body {
     -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.37);
     -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.37);
     height: 180px;
+    z-index: 1;
 }
 
 .search-head input {
@@ -124,6 +125,12 @@ body {
     align-items: center;
     gap: 20px;
     height: 100px;
+}
+
+/* Main Content */
+
+.main {
+    background-color: #e6f8fd;
 }
 
 

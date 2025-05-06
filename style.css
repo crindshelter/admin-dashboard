@@ -62,11 +62,8 @@ body {
 /* Header style*/
 
 .header {
-    grid-area: 1fr 1fr / 1fr 1fr;
-}
-
-.search-head {
-    display: flex;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
 }
 
 .search-head input {
@@ -74,8 +71,23 @@ body {
     border: 2px black solid;
     background-color: #f5fcff;
     padding: 5px 10px;
+    width: 80%;
 }
 
+.notif-head {
+    display: flex;
+}
+
+.notif-head img {
+    height: 50px;
+}
+
+.profile {
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: rgb(178, 216, 255);
+}
 
 
 /* Other */

@@ -130,7 +130,7 @@ body {
 /* Main Content */
 
 .main {
-    background-color: #e6f8fd;
+    background-color: #95cbda;
     display: grid;
     grid-template: 3fr 1fr / 1fr 1fr;
     padding: 25px;
@@ -143,10 +143,23 @@ body {
     grid-row: span 2;
 }
 
-.project {
-    height: 210px;
+.project {  
+    height: 160px;
     width: 450px;
-    background-color: rgb(220, 220, 220);
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-left: rgb(32, 58, 125) 15px solid;
+}
+
+
+
+.share-box {
+    align-self: end;
 }
 
 

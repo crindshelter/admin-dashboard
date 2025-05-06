@@ -52,10 +52,17 @@ body {
     margin-bottom: 10%;
     gap: 10px;
     color: white;   
+    cursor: pointer;
 }
 
 .title img {
     height: 100%;
+}
+
+/* Header style*/
+
+.header {
+    grid-area: 1fr 1fr / 1fr 1fr;
 }
 
 

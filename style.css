@@ -19,3 +19,7 @@ body {
 .side {
     display: flex;
 }
+
+.side h1 {
+    color: white;   
+}

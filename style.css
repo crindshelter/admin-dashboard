@@ -19,7 +19,8 @@ body {
     padding: 25px;
     display: flex;
     flex-direction: column;
-    gap: 10px
+    gap: 10px;
+
 }
 
 .side {
@@ -32,7 +33,7 @@ body {
 
 }
 
-.side:hover {
+.side:not(.title):hover {
     background-color: rgb(40, 135, 164);
     cursor: pointer;
 }
@@ -49,7 +50,6 @@ body {
     font-size: 1.5em;
     height: 50px;
     margin-bottom: 10%;
-    display: flex;
     gap: 10px;
     color: white;   
 }

@@ -166,6 +166,7 @@ body {
 
 .announcements {
     padding: 0 25px;
+    height: 450px;
 }
 
 .announcements-box {
@@ -186,6 +187,34 @@ body {
 
 .share-box {
     align-self: end;
+}
+
+.trending {
+    margin-top: -135px;
+    padding: 0 25px;
+}
+
+.trending-box .profile {
+    height: 65px;
+}
+
+.trending-box {
+    margin-top: 15px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 15px;
+
+    box-shadow: 5px -1px 5px 0px rgba(0,0,0,0.24);
+-webkit-box-shadow: 5px -1px 5px 0px rgba(0,0,0,0.24);
+-moz-box-shadow: 5px -1px 5px 0px rgba(0,0,0,0.24);
+}
+
+.trending-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
 }
 
 
